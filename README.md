@@ -77,7 +77,7 @@ This project explores how various regularization strategies impact the performan
 
 ## 🧑‍💻 Author
 
-**Mani Datta**  
+**ManiDatta**  
 Master’s in Data Science @ University of Colorado Boulder  
 [GitHub](https://github.com/Manidatta1)
 
