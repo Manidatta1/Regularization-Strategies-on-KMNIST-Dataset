@@ -94,6 +94,6 @@ Regularization plays a critical role in both **improving generalization** and **
 
 📄 **Full Report**
 
-For a detailed explanation of the experiment design, model architecture, hyperparameter tuning, result interpretation, and additional insights, please refer to document https://github.com/Manidatta1/Regularization-Strategies-on-KMNIST-Dataset/blob/main/Regularization%20Strategies%20on%20KMNIST%20Dataset.docx the included in this repository.
+For a detailed explanation of the experiment design, model architecture, hyperparameter tuning, result interpretation, and additional insights, please refer to document Regularization Strategies on KMNIST Dataset.docx the included in this repository.
 
 
