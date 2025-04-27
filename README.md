@@ -1,10 +1,10 @@
-# 🧠 Regularization Strategies on KMNIST Dataset
+# Regularization Strategies on KMNIST Dataset
 
 This project explores how various regularization strategies impact the performance and generalization of a CNN-based model on the **Kuzushiji-MNIST (KMNIST)** dataset. The primary goal is to evaluate how techniques like **Dropout**, **L2 Regularization**, and **SGD with Momentum** influence classification metrics across different training data splits.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 - Evaluate CNN performance on handwritten Japanese characters using KMNIST.
 - Analyze how architectural choices and regularization methods affect generalization.
@@ -12,7 +12,7 @@ This project explores how various regularization strategies impact the performan
 
 ---
 
-## 🏗️ CNN Architecture
+## CNN Architecture
 
 - **Convolutional Layers**: 5 layers with filters [32, 64, 128, 256, 512], kernel size 3×3, ReLU activations.
 - **Pooling**: MaxPooling used in selected layers to reduce spatial dimensions and prevent overfitting.
@@ -26,7 +26,7 @@ This project explores how various regularization strategies impact the performan
 
 ---
 
-## ⚙️ Training Setup
+## Training Setup
 
 | Hyperparameter       | Value             |
 |----------------------|-------------------|
@@ -40,7 +40,7 @@ This project explores how various regularization strategies impact the performan
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 - **Accuracy**
 - **Precision**
@@ -49,7 +49,7 @@ This project explores how various regularization strategies impact the performan
 
 ---
 
-## 📈 Results Summary
+## Results Summary
 
 | **Method**            | **Precision (75%)** | **Recall (75%)** | **Best Accuracy**        |
 |-----------------------|---------------------|------------------|---------------------------|
@@ -60,7 +60,7 @@ This project explores how various regularization strategies impact the performan
 
 ---
 
-## 🔍 Key Insights
+## Key Insights
 
 - **SGD with Momentum** yields the highest overall performance but benefits most from larger datasets.
 - **Dropout** improves generalization significantly even with just 25% of training data — highly data-efficient.
@@ -69,13 +69,13 @@ This project explores how various regularization strategies impact the performan
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
 - Bar plots comparing accuracy, precision, and recall across techniques
 
 ---
 
-## 🧑‍💻 Author
+## Author
 
 **ManiDatta**  
 Master’s in Data Science @ University of Colorado Boulder  
@@ -86,13 +86,13 @@ Master’s in Data Science @ University of Colorado Boulder
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 Regularization plays a critical role in both **improving generalization** and **reducing data dependency**. While **SGD with Momentum** delivered the **best performance** (95.87% accuracy), **Dropout** proved to be the **most efficient method**, achieving strong results with limited training data. These findings can guide the design of more robust CNNs in low-data scenarios.
 
 ---
 
-📄 **Full Report**
+**Full Report**
 
 For a detailed explanation of the experiment design, model architecture, hyperparameter tuning, result interpretation, and additional insights, please refer to document Regularization Strategies on KMNIST Dataset.docx the included in this repository.
 
